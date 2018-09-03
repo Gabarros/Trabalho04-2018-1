@@ -14,7 +14,6 @@ public interface iRetroFitFipe {
     @GET("/carros/{veiculo}")
     Call<Veiculo> getVeiculo(@Path("veiculo") String veiculo);
 
-    String tipo = "";
 
     @GET("/{carros}/marcas")
     Call<List<Veiculo>> getMarcas(@Path("carros") String veiculo);
