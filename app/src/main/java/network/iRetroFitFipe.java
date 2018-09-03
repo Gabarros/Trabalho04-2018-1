@@ -11,7 +11,7 @@ import retrofit2.http.Path;
 
 public interface iRetroFitFipe {
 
-    @GET("/users/{usuario}")
+    @GET("/carros/{veiculo}")
     Call<Veiculo> getVeiculo(@Path("veiculo") String veiculo);
 
     String tipo = "";
@@ -19,13 +19,10 @@ public interface iRetroFitFipe {
     @GET("/{carros}/marcas")
     Call<List<Veiculo>> getMarcas(@Path("carros") String veiculo);
 
-
-
     public static final Retrofit retrofit = new Retrofit.Builder()
             .baseUrl("https://parallelum.com.br/fipe/api/v1/")
             .addConverterFactory(GsonConverterFactory.create())
             .build();
-
 
 
 }
