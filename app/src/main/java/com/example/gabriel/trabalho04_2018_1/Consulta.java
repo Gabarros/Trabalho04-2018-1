@@ -68,7 +68,7 @@ public class Consulta extends AppCompatActivity {
 
             }
         });
-        
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_consulta);
 
@@ -122,14 +122,14 @@ public class Consulta extends AppCompatActivity {
     }
 
     private static final String[] MARCAS = new String[] {
-            "Belgium", "France", "Italy", "Germany", "Spain"
+            "Volkswagen", "Toyota", "Fiat", "Palio", "Asia Motors", "Agrale", "Acura"
     };
 
     private static final String[] MODELOS = new String[] {
-            "Belgium", "France", "Italy", "Germany", "Spain"
+            "2019 Gasolina", "32000 Gasolina", "2017 Gasolina", "2018 Gasolina", "2019 Diesel", "2018 Diesel", "2017 Diesel"
     };
 
     private static final String[] ANOS = new String[] {
-            "Belgium", "France", "Italy", "Germany", "Spain"
+            "2017", "2018", "2016", "2015", "2014", "2013", "2012", "2011"
     };
 }
