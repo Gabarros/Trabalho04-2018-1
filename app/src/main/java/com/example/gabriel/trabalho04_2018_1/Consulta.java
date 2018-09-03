@@ -107,13 +107,14 @@ public class Consulta extends AppCompatActivity {
                 tipo = valueOf(rg.getCheckedRadioButtonId());
 
                 if (tipo == "1"){
-                    Toast.makeText(getApplicationContext(), "Carro", Toast.LENGTH_SHORT);
+                    Toast.makeText(getApplicationContext(), "Carro", Toast.LENGTH_SHORT).show();
+
                 }
                 if (tipo == "2"){
-                    Toast.makeText(getApplicationContext(), "Moto", Toast.LENGTH_SHORT);
+                    Toast.makeText(getApplicationContext(), "Moto", Toast.LENGTH_SHORT).show();
                 }
                 if (tipo == "3"){
-                    Toast.makeText(getApplicationContext(), "Caminhão", Toast.LENGTH_SHORT);
+                    Toast.makeText(getApplicationContext(), "Caminhão", Toast.LENGTH_SHORT).show();
                 }else{
 
                 }
